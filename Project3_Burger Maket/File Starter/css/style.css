@@ -1,0 +1,12 @@
+@import 'fonts.css';
+:root {
+    --green: #69cf17;
+    --green_90: #5eac28;
+    --green_75: #4f9b11;
+    --f900: 'Raleway-Black';
+    --f400: 'Raleway-Regular';
+    --f100: 'Raleway-Thin';
+    --black: #000000;
+    --grey: #dedede;
+    --white: #ffffff;
+}
