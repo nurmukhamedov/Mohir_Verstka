@@ -1,0 +1,151 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    background: url(../img/back.jpg);
+    background-size: cover;
+    height: 640px;
+}
+
+header nav {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1110px;
+    margin: auto;
+    align-items: center;
+}
+
+header nav ul {
+    display: flex;
+    list-style: none;
+}
+
+header nav ul li a {
+    display: inline-block;
+    padding: 22px 28px;
+    text-decoration: none;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #4d4d4d;
+    transition: 0.5s ease;
+}
+
+header nav ul li a:hover {
+    background: #515151;
+    color: #ffffff;
+}
+
+header nav .logo {
+    color: red;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header .header_content {
+    text-align: center;
+    margin-top: 238px;
+}
+
+header .header_content h1 {
+    font-size: 40px;
+    color: #cb0a15;
+    padding-bottom: 48px;
+}
+
+header .header_content p {
+    font-size: 18px;
+    color: #4d4d4d;
+}
+
+header .header_content p span {
+    color: #000000;
+    font-weight: bold;
+}
+
+section .nike_box {
+    max-width: 1110px;
+    margin: auto;
+    display: flex;
+    margin-top: 100px;
+}
+
+section .nike_box .block_nike img {
+    width: 100%;
+}
+
+section .nike_box .block_nike {
+    width: 580px;
+}
+
+section .nike_box .block_nike_1 {
+    width: 550px;
+    margin-left: 30px;
+}
+
+section .nike_box .block_nike_1 .keds {
+    display: flex;
+    margin-bottom: 30px;
+}
+
+section .nike_box .block_nike h2 {
+    font-size: 25px;
+    color: #2c2c2c;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 64px 0 30px 0;
+}
+
+section .nike_box .block_nike p {
+    font-size: 16px;
+    color: #919191;
+}
+
+.block_nike_1 .keds .text_nike {
+    margin-left: 30px;
+}
+
+.block_nike_1 .keds .text_nike h2 {
+    font-size: 20px;
+    color: #000000;
+}
+
+.block_nike_1 .keds .text_nike p {
+    color: #b2b2b2;
+    font-size: 16px;
+}
+
+footer .adidas_example {
+    max-width: 1110px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 142px;
+    margin-bottom: 50px;
+}
+
+footer .adidas_example .adidas_block ul {
+    list-style: none;
+}
+
+footer .adidas_example .adidas_block h3 {
+    font-size: 20px;
+    color: #000000;
+    padding-bottom: 30px;
+}
+
+footer .adidas_example .adidas_block span {
+    color: red;
+}
+
+footer .adidas_example .adidas_block a {
+    text-decoration: underline;
+    font-size: 16px;
+    color: #a6a6a6;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+footer .adidas_example .adidas_block a:hover {
+    color: red;
+}
